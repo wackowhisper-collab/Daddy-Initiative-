@@ -1,0 +1,1 @@
+NFT metadata JSON files. Replace image IPFS hashes and pin assets to IPFS/Pinata.
