@@ -1,0 +1,19 @@
+{
+  "name": "Investing Baby #1",
+  "description": "Investing Baby \u2014 autopilot investor NFT in Daddy's Initiative ecosystem.",
+  "image": "ipfs://REPLACE_HASH/investing_baby_1.png",
+  "attributes": [
+    {
+      "trait_type": "Tier",
+      "value": "Baby"
+    },
+    {
+      "trait_type": "Autopilot",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "RarityScore",
+      "value": 60
+    }
+  ]
+}
