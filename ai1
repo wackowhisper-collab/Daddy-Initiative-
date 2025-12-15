@@ -1,0 +1,16 @@
+import zipfile, os, json
+
+zip_path = "/mnt/data/Universal_AI_Command_Hub_V2_ALL_WORD.zip"
+extract_path = "/mnt/data/ai_hub_extracted"
+
+os.makedirs(extract_path, exist_ok=True)
+
+with zipfile.ZipFile(zip_path, 'r') as zip_ref:
+    zip_ref.extractall(extract_path)
+
+file_tree = []
+for root, dirs, files in os.walk(extract_path):
+    for f in files:
+        file_tree.append(os.path.relpath(os.path.join(root, f), extract_path))
+
+file_tree[:50], len(file_tree)
